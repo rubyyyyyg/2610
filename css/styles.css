@@ -328,12 +328,12 @@ body {
   height: 100%;
   font-family: "Montserrat", serif;
   font-weight: 500;
-  color: #555555;
+  color: #44201C;
 }
 
 #headerWrapper {
-  background-color: pink;
-  color: #989999;
+  background-color: #44201C;
+  color: #C5C0AA;
 }
 
 header {
@@ -349,7 +349,7 @@ header h1 {
 }
 
 #navWrapper {
-  background-color: red;
+  background-color: #C5C0AA;
 }
 
 nav ul {
@@ -362,12 +362,12 @@ nav ul li {
   flex: 1;
 }
 nav li.active {
-  background-color: purple;
+  background-color: white;
 }
 nav a {
   display: block;
   padding: 0.75rem;
-  color: white;
+  color: #222222;
   text-align: center;
   text-decoration: none;
 }
@@ -376,7 +376,7 @@ nav a:hover {
 }
 
 #footerWrapper {
-  background-color: gray;
+  background-color: #C5C0AA;
   padding: 0.5rem 16px;
 }
 #footerWrapper p {

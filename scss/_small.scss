@@ -21,7 +21,7 @@ html {
   }
 
 #headerWrapper {
-    background-color: pink;
+    background-color: $primaryColor;
     color: $secondaryColor;
 }
 
@@ -38,7 +38,7 @@ header {
 }
 
 #navWrapper {
-  background-color: red;
+  background-color: $secondaryColor;
 }
 
 nav {
@@ -52,12 +52,12 @@ nav {
     }
   }
   li.active {
-    background-color: purple;
+    background-color: white;
   }
   a {
     display: block;
     padding: 0.75rem;
-    color: white;
+    color: $fontColor;
     text-align: center;
     text-decoration: none;
     &:hover {
@@ -69,7 +69,7 @@ nav {
 //begin the footer
 
 #footerWrapper {
-  background-color: gray;
+  background-color: $secondaryColor;
   padding: .5rem $gutter;
   p{
     margin: 0;
